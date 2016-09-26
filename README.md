@@ -5,7 +5,6 @@ In this module, you will learn how to manipulate the rendering of HTML elements 
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 **Contents**
 
 - [Resources](#resources)
@@ -14,6 +13,8 @@ In this module, you will learn how to manipulate the rendering of HTML elements 
 - [Selectors](#selectors)
 - [The Cascade](#the-cascade)
 - [Arranging elements](#arranging-elements)
+  - [Display](#display)
+  - [Position](#position)
 - [The Box-Model](#the-box-model)
 - [CSS Units](#css-units)
   - [Absolute Units](#absolute-units)
