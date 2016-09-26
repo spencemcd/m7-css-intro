@@ -1,0 +1,44 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Relative position: https://css-tricks.com/absolute-positioning-inside-relative-positioning/ */
+
+#container {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    font-size: 1.5em;
+    color: white;
+}
+
+.bottom {
+    bottom: 5px;
+}
+
+.top {
+    top: 5px;
+}
+
+.center {
+    top: 50%;
+}
+
+.middle {
+    width: 100%;
+    text-align: center;
+}
+
+.right {
+    right: 5px;
+}
+
+.left {
+    left: 5px;
+}

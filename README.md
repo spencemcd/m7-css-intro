@@ -5,6 +5,7 @@ In this module, you will learn how to manipulate the rendering of HTML elements 
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Contents**
 
 - [Resources](#resources)
@@ -30,7 +31,7 @@ In this module, you will learn how to manipulate the rendering of HTML elements 
 - [Font Awesome icons](https://fortawesome.github.io/Font-Awesome/)
 
 ## Writing CSS
-There are three different options for incorporating your CSS styles into your webpage. The most preferable and consistent approach is to write all of you CSS code in a separate file, and load that file into your `index.html` file in the `<head>` section of your page:
+There are three different options for incorporating your CSS styles into your webpage. The most preferable and consistent approach is to write all of your CSS code in a separate file, and load that file into your `index.html` file in the `<head>` section of your page:
 
 ```html
 <!DOCTYPE html>
@@ -60,11 +61,11 @@ Finally, you may see CSS styles written _in-line_ with an individual HTML elemen
 
 ```html
 <!-- Inline style -->
-<p style="font-size:28px">This text would be 28px in size</p>
+<p style="font-size:28px;">This text would be 28px in size</p>
 ```
 
 ## CSS Syntax
-In your CSS file, you'll apply a variety of styles to selected elements (more on this below).  Each style that you wish to apply will be written as a `property:value` pair, where the **property** is the style you wish to manipulate (i.e., color) and the value is the specific value you wish to apply (i.e., blue).  Here is some css pseudo-code:
+In your CSS file, you'll apply a variety of styles to selected elements (more on this below). Following each `selector`, you will write a number of `property:value;` pairs _inside of_ a set of curly braces (`{}`). In your `property:value;` pair, the **property** is the style you wish to manipulate (i.e., color) and the `value` is the specific value you wish to apply (i.e., blue) to that property. Here is some css pseudo-code:
 
 ```css
 selector1 {
@@ -112,7 +113,10 @@ However, there are a few more important pieces of logic that you need to underst
 
 
 ## Arranging elements
-Elements naturally arrange themselves on the page (from top to bottom, left to right) based on their size. Each HTML element has a default `display` property that indicates how it will horizontally share space with other elements:
+Elements naturally arrange themselves on the page (from top to bottom, left to right) based on their size.
+
+### Display
+Each HTML element has a default `display` property that indicates how it will horizontally share space with other elements:
 
 >**Block level elements**: take up 100% of the width, and will not be in the same horizontal alignment as other elements.  Examples include `<div>`, `<h1>` - `<h6>`, and `<form>`.
 
@@ -125,6 +129,21 @@ Elements naturally arrange themselves on the page (from top to bottom, left to r
 Here is an example of how block, inline, and inline-block elements arrange themselves:
 
 ![block and inline block elements](imgs/block-elements.png)
+
+As you can see, the `block` level elements take up an entire row, regardless of the size of their contents. The `inline` and `inline-block` elements only take up as much horizontal space as is necessary. Unlike the `inline` element, the height of the `inline-block` is able to be set using CSS.
+
+### Position
+In addition to _how_ you wish elements to be displayed, you can also manipulate their **position**. The `position` property allows you to adjust the layout beyond the natural flow of elements on the page. Depending on the `position` property, you can shift the location of elements using the `top`, `bottom`, `left`, and `right` properties. There are four different _values_ that the **position** property can take on:
+
+>**Static**: By default, elements are positioned statically. This is their natural layout, and elements _will not_ be shifted by the `top`, `bottom`, `left`, or `right` properties.
+
+>**Relative**: Allows you to shift the element _relative_ to it's natural position on the page. This enables you to move the element using the `top`, `bottom`, `left`, and `right` properties.
+
+>**Fixed**: The _fixed_ position allows you place an element in a consistent location within a browser window. For example, if you wanted a link to _always_ be 50px from the bottom, you could set the properties: `position:fixed;` and `bottom:50px;`.
+
+>**Absolute**: The _absolute_ position allows you to place an element a specific number of pixels from it's parent element.  
+
+To practice manipulating the position of elements, head over to [exercise-1](exercise-1).
 
 ## The Box-Model
 The amount of space taken up by each element is best explained by the [box-model](http://www.w3schools.com/css/css_boxmodel.asp).  Think of each HTML element as some content in a box.  The amount of space occupied by that box depends on:
@@ -197,5 +216,3 @@ p {
 ```
 
 This will help keep consistent spacing across devices and screen sizes.
-
-To practice your CSS skills, head over to [exercise-1](exercise-1).
