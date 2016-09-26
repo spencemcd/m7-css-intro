@@ -1,4 +1,4 @@
-## Exercise 1: Positioning
+## Exercise 2: Positioning
 
 In this exercise, you'll experiment with the `position` attribute to place labels on top of an image. The final product will look like this:
 

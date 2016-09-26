@@ -1,4 +1,4 @@
-## Exercise 2: Basic Syntax
+## Exercise 1: Basic Syntax
 In this exercise, you'll practice selecting HTML elements, and assigning basic styles to the elements. To do this, you'll make a nametag that looks like this:
 
 ![complete](imgs/complete.png)
