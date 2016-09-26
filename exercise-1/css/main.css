@@ -1,44 +1,42 @@
-img {
-    width: 100%;
-    height: auto;
-}
-
-
-/* Relative position: https://css-tricks.com/absolute-positioning-inside-relative-positioning/ */
-
-#container {
-    display: inline-block;
-    width: 50%;
-    position: relative;
-}
-
-.label {
-    position: absolute;
-    font-size: 1.5em;
-    color: white;
-}
-
-.bottom {
-    bottom: 5px;
-}
-
-.top {
-    top: 5px;
-}
-
-.center {
-    top: 50%;
-}
-
-.middle {
-    width: 100%;
+#nametag {
+    border: 1px solid red;
+    width: 400px;
+    height: 200px;
     text-align: center;
+    border-radius: 10px;
+    border-bottom: 20px solid red;
 }
 
-.right {
-    right: 5px;
+#tag-top {
+    border-bottom: 1px solid black;
+    color: white;
+    font-family: sans-serif;
+    border-top: 1px solid red;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
 }
 
-.left {
-    left: 5px;
+h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-variant: small-caps;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+h2 {
+    margin-top: 1px;
+    margin-bottom: 3px;
+    font-size: .8rem;
+    font-style: italic;
+}
+
+.red {
+    background-color: red;
+}
+
+#tag-center {
+    font-size: 3rem;
+    font-family: fantasy;
+    margin-top: 25px;
 }

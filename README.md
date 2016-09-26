@@ -112,6 +112,7 @@ However, there are a few more important pieces of logic that you need to underst
 2. _Order_ matters: If a later rule selects an element and sets the same _property_ to a different _value_, the later rule's setting overrides.
 3. _Specificity_ matters: The specificity with which elements are selected may override the order in which they are applied. More specific selection (i.e., `id` > `class` > `type`) will take precedence (more on that [here](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)).
 
+To practice making basic selections and assigning styles, head over to [exercise-1](exercise-1).
 
 ## Arranging elements
 Elements naturally arrange themselves on the page (from top to bottom, left to right) based on their size.
@@ -144,7 +145,7 @@ In addition to _how_ you wish elements to be displayed, you can also manipulate 
 
 >**Absolute**: The _absolute_ position allows you to place an element a specific number of pixels from it's parent element.  
 
-To practice manipulating the position of elements, head over to [exercise-1](exercise-1).
+To practice manipulating the position of elements, head over to [exercise-2](exercise-2).
 
 ## The Box-Model
 The amount of space taken up by each element is best explained by the [box-model](http://www.w3schools.com/css/css_boxmodel.asp).  Think of each HTML element as some content in a box.  The amount of space occupied by that box depends on:
