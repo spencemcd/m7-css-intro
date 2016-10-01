@@ -1,0 +1,35 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    color: white;
+}
+
+.cat {
+    position: relative;
+    width: 25%;
+    left: 37.5%;
+    right: 37.5%;
+}
+
+.cat-row {
+    z-index: 0;
+    position: relative;
+    width: 100%;
+    top: 115px;
+    margin: 5px 0px 0px 0px;
+}
+
+#header {
+    z-index: 1;
+    position: fixed;
+    background: grey;
+    margin: 0px;
+    padding: 20px;
+    height: 75px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
