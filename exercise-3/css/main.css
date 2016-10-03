@@ -1,25 +1,34 @@
-body {
-    padding: 0px;
-    margin: 0px;
-}
-
 h2 {
     color: white;
+    display: inline;
+}
+
+#title {
+    float: left;
+}
+
+#course {
+    float: right;
 }
 
 .cat {
     position: relative;
-    width: 25%;
-    left: 37.5%;
-    right: 37.5%;
+    margin: 20px 0px 20px 0px;
+    width: 50%;
+    left: 25%;
+    right: 25%;
 }
 
 .cat-row {
+    background: #cdd9f2;
+    border-radius: 5px;
     z-index: 0;
     position: relative;
-    width: 100%;
+    width: 40%;
     top: 115px;
-    margin: 5px 0px 0px 0px;
+    left: 30%;
+    right: 30%;
+    margin: 20px 0px 0px 0px;
 }
 
 #header {
