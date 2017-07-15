@@ -7,10 +7,37 @@ img {
 /* Relative position: https://csstricks.com/absolutepositioninginsiderelativepositioning/ */
 
 #container {
-    display: inlineblock;
+    display: inline-block;
     width: 50%;
     position: relative;
 }
 
+.cls {
+	position: absolute;
+	color: pink;
+}
 
-/* Assign styles here */
+.top {
+	top: 10px;
+}
+
+.bottom {
+	bottom: 10px;
+}
+
+.right {
+	right: 10px;
+}
+
+.left {
+	left: 10px;
+}
+
+.middle {
+	width: 100%;
+	text-align: center;
+}
+
+.center {
+	top: 50%;
+}
