@@ -1,0 +1,34 @@
+#header {
+	position: fixed;
+	z-index: 1;
+	background-color: grey;
+	height: 75px;
+	padding: 20px;
+}
+
+#title {
+	display: inline-block;
+}
+
+#course {
+	display: inline-block;
+}
+
+h2 {
+	color: white;
+}
+
+.cat-row {
+	position: relative;
+	width: 50%;
+	background-color: lightblue;
+	border-radius: 5px;
+	text-align: center;
+	left: 25%;
+}
+
+.cat {
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
